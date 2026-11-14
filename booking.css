@@ -92,3 +92,66 @@ body {
 .btn:hover {
     background: #FFFFF0;
 }
+
+/* Sections */
+.section {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 60px 20px;
+    scroll-margin-top: 80px;
+}
+
+.section h2 {
+    text-align: center;
+    color: #800020;
+    font-size: 2rem;
+}
+
+.section h2::after {
+    content: "";
+    display: block;
+    width: 70px;
+    height: 3px;
+    background: #C9A84C;
+    margin: 10px auto 0;
+}
+
+.section-intro {
+    text-align: center;
+    margin: 15px 0 35px;
+}
+
+/* Room cards: 2 per row */
+.room-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.room-card {
+    flex: 0 0 calc(50% - 12px);
+    background: #FFFFFF;
+    border: 1px solid #E5D9B0;
+    border-top: 5px solid #C9A84C;
+    border-radius: 8px;
+    padding: 28px;
+    box-shadow: 0 2px 10px rgba(128, 0, 32, 0.1);
+}
+
+.room-card h3 {
+    color: #800020;
+    font-size: 1.4rem;
+}
+
+.room-price {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #800020;
+    margin: 6px 0 10px;
+}
+
+.room-price span {
+    font-size: 0.85rem;
+    font-weight: normal;
+    color: #6B5A5F;
+}
