@@ -212,3 +212,25 @@ tbody tr:nth-child(even) td {
     font-weight: bold;
     font-size: 1.2rem;
 }
+
+/* Booking placeholder */
+.booking-placeholder {
+    background: #800020;
+    color: #FFFFF0;
+    text-align: center;
+    max-width: none;
+    scroll-margin-top: 80px;
+}
+
+.booking-placeholder h2 {
+    color: #C9A84C;
+}
+
+/* Footer */
+footer {
+    background: #2B1B1F;
+    color: #FFFFF0;
+    text-align: center;
+    padding: 20px;
+    font-size: 0.9rem;
+}
