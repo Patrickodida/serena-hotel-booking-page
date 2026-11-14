@@ -234,3 +234,19 @@ footer {
     padding: 20px;
     font-size: 0.9rem;
 }
+
+/* Small screens */
+@media (max-width: 700px) {
+    .navbar {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .hero h1 {
+        font-size: 2rem;
+    }
+
+    .room-card {
+        flex: 0 0 100%;
+    }
+}
