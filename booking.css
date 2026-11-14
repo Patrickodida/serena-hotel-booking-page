@@ -15,3 +15,41 @@ body {
     color: #2B1B1F;
     background: #FFFFF0;
 }
+
+/* Sticky Navbar */
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+    background: #800020;
+    border-bottom: 3px solid #C9A84C;
+}
+
+.navbar img {
+    height: 50px;
+    width: auto;
+    display: block;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 28px;
+}
+
+.navbar a {
+    color: #FFFFF0;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 0.9rem;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+}
+
+.navbar a:hover {
+    color: #C9A84C;
+}
