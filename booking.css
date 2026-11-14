@@ -53,3 +53,42 @@ body {
 .navbar a:hover {
     color: #C9A84C;
 }
+
+/* Hero Section  */
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px 40px;
+    min-height: 500px;
+    background: linear-gradient(rgba(128, 0, 32, 0.05), rgba(0, 0, 0, 0.05));
+}
+
+.hero-content   {
+    max-width: 800px;
+}
+
+.hero h1 {
+    color: #FFFFF0;
+    font-size: 3rem;
+    line-height: 1.2;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 2px rgba(0,0,0,0.6);
+}
+
+.btn {
+    display: inline-block;
+    background: #C9A84C;
+    color: #800020;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    padding: 14px 36px;
+    border-radius: 4px;
+}
+
+.btn:hover {
+    background: #FFFFF0;
+}
