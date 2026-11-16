@@ -62,7 +62,9 @@ body {
     text-align: center;
     padding: 20px 40px;
     min-height: 500px;
-    background: linear-gradient(rgba(128, 0, 32, 0.05), rgba(0, 0, 0, 0.05));
+    background:
+    linear-gradient(rgba(128, 0, 32, 0.55), rgba(0, 0, 0, 0.55)),
+    url("hero-serena.jpg") center / cover no-repeat;
 }
 
 .hero-content   {
